@@ -1,0 +1,133 @@
+body{
+	font-family: Verdana;
+}
+
+.navigacionimeni{
+	background-color: silver;
+	list-style-type: none;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navitemi{
+	margin: 0px 20px;
+	color: black;
+}
+
+.navlink{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	border-bottom: 2px solid white;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.navlink:hover{
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.onama-list1{
+	width: 45%;
+	height: 30%;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid gray;
+}
+
+.onama-list2{
+	width: 45%;
+	height: 30%;
+	float: right;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid gray;
+}
+
+.textispod{
+	clear: both;
+	margin: 20px;
+	padding: 0px 10px;
+	border: 1px solid gray;
+	text-align: center;
+}
+
+.bold{
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+a.bold:visited{
+	color: blue;
+}
+
+.slika1{
+	margin: 20px;
+	width: 45%;
+	padding: 10px;
+	border: 1px solid gray;
+}
+
+.slika2{
+	margin: 20px;
+	width: 45%;
+	padding: 10px;
+	border: 1px solid gray;
+	float: right;
+}
+
+table, tr, td{
+	border: 1px solid;
+	height: 30%;
+	width: 30%;
+	text-align: center;
+}
+
+.tabela{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.kontakt{
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid gray;
+}
+
+.forma{
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid gray;
+}
+
+.submit:hover{
+	background-color: lightgreen;
+}
+
+.reset:hover{
+	background-color: red;
+}
+
+.ime, .prezime{
+	width: 300px;
+}
+
+textarea{
+	margin: 10px;
+	width: 30%;
+	height: 200px;
+}
+
+.slika1:hover{
+	transform: translate(1px);
+}
+
+.slika2:hover{
+	transform: translate(1px);
+}
